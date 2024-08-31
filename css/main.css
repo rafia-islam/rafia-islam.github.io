@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Wremena";
+    src: url("../resources/font/2/WremenaRegular.woff") format("woff");
+  }
+
+  header {
+    font-family:"Wremena";
+    background-color: #181f25;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .profile-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .header-info {
+    color: #fff9e6;
+  }
+  
+  .header-info h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #fff9e6;
+  }
+  
+  .header-info p {
+    margin: 0;
+    font-size: 1.2em;
+    color: #fff9e6;
+  }
+  
+  body {
+    font-family: "Wremena";
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #242424;
+  }
+
+
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  h1, h2 {
+    color: #242424;
+  }
+  .content-section {
+    margin-bottom: 30px;
+  }
+  footer {
+    background-color: #242424;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+  }
+  a {
+    color: #2980B9;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
