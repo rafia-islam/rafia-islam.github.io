@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Wremena";
-    src: url("../resources/font/2/WremenaRegular.woff") format("woff");
+    src: url("../resources/font/WremenaRegular.woff") format("woff");
   }
 
   header {
@@ -63,7 +63,7 @@
   }
   
   footer {
-    padding: 10px;
+    padding: 4px;
     text-align: center;
   }
   
@@ -111,29 +111,117 @@
   
   @media (max-width: 768px) {
     .container {
-      max-width: 100%; /* Width for small screens (mobile) */
+      max-width: 90%; /* Width for small screens (mobile) */
       padding: 0 10px; /* Add some padding for better readability on mobile */
     }
   }
   
   
-  h1, h2 {
-    color: #242424;
+/* Header content responsiveness */
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.profile-image {
+  width: 80px; /* Adjust for smaller screens */
+  height: 80px;
+  margin-bottom: 10px;
+}
+
+.header-info h1 {
+  font-size: 1.8em;
+}
+
+.header-info p {
+  font-size: 1.1em;
+}
+
+/* Make the layout responsive */
+@media (min-width: 768px) {
+  .header-content {
+    flex-direction: row;
+    text-align: left;
+    max-width: 60%;
   }
-  .content-section {
-    margin-bottom: 30px;
+
+  .profile-image {
+    width: 100px;
+    height: 100px;
   }
-  footer {
-    background-color: #242424;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin-top: 30px;
+
+  .header-info h1 {
+    font-size: 2em;
   }
-  a {
-    color: #2980B9;
-    text-decoration: none;
+
+  .header-info p {
+    font-size: 1.2em;
   }
-  a:hover {
-    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
   }
+  .header-info p {
+    max-width: 90%;
+  }
+  .header-info h1 {
+    max-width: 90%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1, h2, h3{
+  color: #242424;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.content-section {
+  margin-bottom: 30px;
+}
+footer {
+  background-color: #242424;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+a {
+  color: #065a92;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #024069;
+}
+
+
+p {
+  line-height: 1.45;
+}
