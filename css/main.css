@@ -1,10 +1,11 @@
+
 @font-face {
-    font-family: "Wremena";
-    src: url("../resources/font/WremenaRegular.woff") format("woff");
+    font-family: "CalistoMT";
+    src: url("../resources/font/CalistoMT.woff") format("woff");
   }
 
   header {
-    font-family:"Wremena";
+    font-family:"CalistoMT";
     background-color: #181f25;
     color: #fff;
     padding: 20px;
@@ -42,7 +43,7 @@
   
 
   body {
-    font-family: "Wremena";
+    font-family: "CalistoMT";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -80,20 +81,6 @@
     height: 100px; /* Adjust size as needed */
     border-radius: 50%; /* Makes the image circular */
     margin-right: 20px; /* Space between image and text */
-  }
-  
-  .header-info {
-    color: #fff9e6;
-  }
-  
-  .header-info h1 {
-    margin: 0;
-    font-size: 2em;
-  }
-  
-  .header-info p {
-    margin: 0;
-    font-size: 1.2em;
   }
   
   .container {
@@ -219,6 +206,7 @@ a {
 a:hover {
   text-decoration: underline;
   color: #024069;
+  font-weight: bold;
 }
 
 
