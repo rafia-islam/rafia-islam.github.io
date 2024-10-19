@@ -202,6 +202,7 @@ footer {
 a {
   color: #065a92;
   text-decoration: none;
+  font-weight: bold;
 }
 a:hover {
   text-decoration: underline;
@@ -213,3 +214,5 @@ a:hover {
 p {
   line-height: 1.45;
 }
+
+
